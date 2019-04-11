@@ -45,10 +45,6 @@ type Keys struct {
 	initialized bool
 }
 
-func (keys *Keys) increment() {
-	keys.hotpCounter = keys.hotpCounter + 1
-}
-
 type ImageHolder struct {
 	image image.Image
 	registry *Registry
